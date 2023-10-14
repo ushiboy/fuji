@@ -1,7 +1,11 @@
+import { HashRouter } from "react-router-dom";
+
+import { AppRoutes } from "./AppRoutes";
+
 export function App() {
   return (
-    <>
-      <h1>Fuji</h1>
-    </>
+    <HashRouter>
+      <AppRoutes />
+    </HashRouter>
   );
 }
